@@ -202,6 +202,7 @@ fn render_playback_text(
                 ui.theme.playback_artists(),
             ),
             "{album}" => (track.album.name.to_owned(), ui.theme.playback_album()),
+            "{release_date}" => (track.album.release_date.unwrap_or_default(), ui.theme.playback_release_date()),
             "{metadata}" => (
                 format!(
                     "repeat: {} | shuffle: {} | volume: {} | device: {}",

@@ -198,6 +198,7 @@ To define application's component styles, the user can specify any of the below 
 - `playback_track`
 - `playback_artists`
 - `playback_album`
+- `playback_release_date`
 - `playback_metadata`
 - `playback_progress_bar`
 - `current_playing`
@@ -218,6 +219,7 @@ border = {}
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
+playback_release_date = { fg = "Yellow" }
 playback_metadata = { fg = "BrightBlack" }
 playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
 current_playing = { fg = "Green", modifiers = ["Bold"] }
